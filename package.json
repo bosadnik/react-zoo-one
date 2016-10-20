@@ -6,11 +6,29 @@
     "url": "https://github.com/bosadnik/react-zoo-one.git",
     "type": "git"
   },
+  "scripts": {
+    "start": "concurrently  \"lite-server -w\" "
+  },
   "author": "bosadnik <bartlomiej@osadnik.com>",
   "license": "MIT",
   "dependencies": {
     "babel": "^6.5.2",
     "lite-server": "^2.2.2",
-    "react": "^15.3.2"
+    "react": "^15.3.2",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^15.3.2",
+      "react-dom": "npm:react-dom@^15.3.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
