@@ -1,0 +1,16 @@
+{
+  "name": "reactzoo1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/bosadnik/react-zoo-one.git",
+    "type": "git"
+  },
+  "author": "bosadnik <bartlomiej@osadnik.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "lite-server": "^2.2.2",
+    "react": "^15.3.2"
+  }
+}
